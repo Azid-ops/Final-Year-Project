@@ -1,0 +1,68 @@
+.table__outer
+{
+    text-align: center;
+    height: 89.7vh;
+}
+
+.table__inner
+{
+    display: flex;
+    border: 1px solid green;
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 5rem;
+}
+
+.table__inner__others
+{
+    display: flex;
+    border: 1px solid green;
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.table__header
+{
+    background-color: #008080;
+    padding:1rem;
+    color: white;
+    width: 30%;
+}
+
+.table__content
+{
+    padding:1rem;
+    color: black;
+}
+.nextPage
+{
+    position: absolute;
+    right: 0;
+    background-color:#008080;
+    text-align:center;
+    color: white;
+}
+.deletePage
+{
+    position: absolute;
+    right: 6rem;
+    background-color:red;
+    text-align:center;
+    color: white;
+}
+
+.backPage
+{
+    background-color:#008080;
+    text-align:center;
+    color: white;
+}
+
+.nextPage > p,.deletePage > p,.backPage > p
+{
+    padding: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}

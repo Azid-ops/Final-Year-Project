@@ -1,0 +1,197 @@
+.outer__body
+{
+    display: flex;
+}
+
+.left__body
+{
+    width: 20%;
+}
+
+.right__body
+{
+    width: 100%;
+    color:black;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.left__nav
+{
+    display: flex;
+    position: relative;
+    background-color: #495057;
+}
+
+.right__nav
+{
+    display: flex;
+    background-color: rgb(27, 26, 26);
+    position: relative;
+    height: 10vh;
+}
+
+.welcome
+{
+    color:white;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 1rem;
+    position: absolute;
+    right:2rem
+}
+
+.messages
+{
+    color:white;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 1rem;
+    position: absolute;
+}
+
+.right__body__body
+{
+    background-color: red;
+}
+.message__container
+{
+    background-color: #008080;
+    padding:1rem;
+    right:13rem;
+    color:white;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    margin-top: 0.7rem;
+    border-radius: 6px;
+}
+
+.bise
+{
+    color:white;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 1rem;
+}
+
+.toggler
+{
+    margin-top: 1.2rem;
+    position: absolute;
+    right:1rem
+}
+.toggler > div
+{
+    background-color: white;
+    margin-bottom: 0.1rem;
+    width: 2.5vw;
+    height: 1vh;
+    border-radius: 6px;
+}
+
+.main__navigation
+{
+    padding-left: 1rem;
+    color:white;
+}
+
+.left__body
+{
+    background-color: rgb(27, 26, 26);
+    height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.dashboard__btn
+{
+    display: flex;
+    margin-left: 1rem;
+    color:white;
+    border: 1px solid white;
+    width: 70%;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.dashboard__btn__active
+{
+    display: flex;
+    margin-left: 1rem;
+    color:white;
+    width: 70%;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    background-color: #008080;
+}
+
+.dashboard__btn__active :hover
+{
+    cursor: pointer;
+}
+
+.dashboard__btn:hover
+{
+    background-color: #008080;
+    border: 1px solid rgb(27, 26, 26);
+    cursor: pointer;
+}
+
+.dashboard
+{
+    margin: 0rem;
+    padding-left: 0.5rem;
+}
+
+.right__body__content
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    background-color: black;
+    height: 30vh;
+
+
+}
+
+.right__body__inner__content
+{
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.analytics
+{
+    font-weight: lighter;
+    position:absolute;
+    left:1rem
+}
+
+.myHr
+{
+    font-weight: bold;
+    position:absolute;
+    top:3rem
+}
+
+.total__analytics
+{
+    position: absolute;
+    top:12rem;
+    width: 66.5%;
+    display: flex;
+    margin: auto;
+    padding: 1rem 0rem;
+}
+
+.total__analytics__inner
+{
+    margin: auto;
+    color: white;
+}
+
+.total__content
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
